@@ -35,7 +35,7 @@ public class LoginServlet2 extends HttpServlet {
         out.print(data);
 
         user_address = URLEncoder.encode(user_address, "utf-8");
-        out.print("<a href='/pro09/sec01/second?user_id=" + user_id + "&user_pw=" + user_pw
+        out.print("<a href='/pro09/sec01/second2?user_id=" + user_id + "&user_pw=" + user_pw
             + "&user_address=" + user_address + "'>두 번째 서블릿으로 보내기</a>");
         out.print("</body></html>");
         out.print(data);
